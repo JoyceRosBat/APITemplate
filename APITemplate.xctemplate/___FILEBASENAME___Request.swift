@@ -9,28 +9,23 @@
 
 import Foundation
 
-struct ___FILEBASENAMEASIDENTIFIER___: APIRequest {
-    var url: URL {
-       
-    }
-    
+enum ___FILEBASENAMEASIDENTIFIER___ {
+    case <#requestCase...#>
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___: APIRequest {
     var path: APIPath {
-        
+        switch self {
+            case .<#requestCase...#>:
+            return <#returnAPIPath...#>
+        }
     }
-    
-    var queryItems: [URLQueryItem]? {
-        
-    }
-    
+   
     var method: HTTPMethod {
-       
+       switch self {
+            case .<#requestCase...#>:
+            return <#returnHTTPMethod...#>
+        }
     }
     
-    var params: Any? {
-        
-    }
-    
-    var timeoutInterval: TimeInterval {
-        
-    }
 }

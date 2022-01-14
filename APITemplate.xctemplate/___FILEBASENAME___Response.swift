@@ -9,7 +9,7 @@
 
 import Foundation
 
-struct ___FILEBASENAMEASIDENTIFIER___ {
+struct ___FILEBASENAMEASIDENTIFIER___: Codable {
     var <#variable...#>
 
     enum CodingKeys: String, CodingKey {
