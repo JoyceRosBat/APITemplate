@@ -40,7 +40,7 @@
 		</dict>
 		<dict>
 			<key>Default</key>
-			<string>___VARIABLE_APIServiceModuleName:identifier___Coordinator</string>
+			<string>___VARIABLE_APIServiceModuleName:identifier___Service</string>
 			<key>Description</key>
 			<string>The APIService name</string>
 			<key>Identifier</key>
